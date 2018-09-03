@@ -138,7 +138,6 @@ public class RadarView extends FrameLayout {
     }
     /**
      * 判断是否动画在运行
-     * @return
      */
     public boolean isRunning(){
         return isAnimRunning;
@@ -146,7 +145,6 @@ public class RadarView extends FrameLayout {
 
     /**
      * ui不可见时关闭动画
-     * @param visibility
      */
     @Override
     protected void onWindowVisibilityChanged(int visibility) {
