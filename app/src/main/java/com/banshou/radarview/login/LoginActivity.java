@@ -33,4 +33,6 @@ public class LoginActivity extends BaseMvpActivity<LoginPresenter> implements Lo
     protected View loadContentView() {
         return LayoutInflater.from(mContext).inflate(R.layout.login, null);
     }
+
+
 }

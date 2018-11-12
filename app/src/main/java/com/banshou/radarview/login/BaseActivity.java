@@ -189,5 +189,6 @@ public abstract class BaseActivity extends RxAppCompatActivity {
 
     protected abstract View loadContentView();
 
+    protected void showDialog(){}
 
 }
